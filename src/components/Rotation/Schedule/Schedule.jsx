@@ -86,7 +86,7 @@ const Schedule = ({ scheduledFlights, selectedAircraft }) => {
     >
       {!scheduleToDisplay || !scheduleToDisplay.length ? (
         <p className='schedule__noScheduledFlights'>
-          No Flights Scheduled. Please add a flight by clicking on it in the{" "}
+          No flights scheduled. Please add a flight by clicking on it in the
           <span> Flights </span> column on the right in order to get started.
         </p>
       ) : (

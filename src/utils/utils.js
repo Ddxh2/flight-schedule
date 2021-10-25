@@ -22,7 +22,14 @@ export const validateFlights = (flights) => {
     flights[0]["departure_valid"] = true;
 
     flights[flights.length - 1]["destination_valid"] = true;
-    flights[flights.length - 1]["arrival_valid"] = true;
+
+    // For the final flight of the schedule, must check if it is grounded during midnight
+
+    if (flights[flights.length - 1].arrivaltime > DAY) {
+      flights[flights.length - 1]["arrival_valid"] = false;
+    } else {
+      flights[flights.length - 1]["arrival_valid"] = true;
+    }
   }
 };
 
