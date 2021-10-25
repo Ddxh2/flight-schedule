@@ -1,0 +1,22 @@
+.column__container {
+  height: var(--col-height);
+  width: var(--col-width);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.column__title {
+  margin: 10px 0 0 0;
+  border-bottom: 2px solid black;
+}
+
+.column__body {
+  overflow: hidden;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 100%;
+}

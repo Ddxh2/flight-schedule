@@ -1,0 +1,41 @@
+.flightCard__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  padding: 10px;
+  border: 1px solid grey;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.flightCard__container:hover {
+  background: #bbbbbb;
+}
+
+.flightCard__header {
+  font-weight: 900;
+  margin: 0;
+}
+
+.flightCard__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  width: 90%;
+}
+
+.flightCard__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.flightCard__location {
+  font-size: 1rem;
+  font-weight: bold;
+}

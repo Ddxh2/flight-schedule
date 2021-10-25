@@ -1,0 +1,99 @@
+.rotationCard__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid black;
+  box-sizing: border-box;
+  width: 100%;
+}
+.rotationCard__container-dragged {
+  background: lightgrey;
+}
+
+.rotationCard__draggable {
+  flex: 0.05;
+  padding: 0 10px 0 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rotationCard__draggable:hover {
+  cursor: grab;
+}
+
+.rotationCard__draggable:active {
+  cursor: grabbing;
+}
+
+.rotationCard__main {
+  flex: 0.95;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  border-left: 1px solid black;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+}
+
+.rotationCard__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.rotationCard__remove {
+  opacity: 0;
+  background: #cccccc;
+  transition: all 0.2s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.rotationCard__container:hover .rotationCard__remove {
+  opacity: 1;
+}
+
+.rotationCard__container:hover .rotationCard__remove:hover {
+  background: #777777;
+  color: white;
+}
+
+.rotationCard__title {
+  margin: 0;
+  font-weight: 900;
+}
+
+.rotationCard__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.rotationCard__column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.rotationCard__location {
+  font-weight: bold;
+}
+.rotationCard__invalid {
+  color: red;
+}

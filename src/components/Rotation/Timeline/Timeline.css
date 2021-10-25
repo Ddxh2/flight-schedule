@@ -1,0 +1,61 @@
+.timeline__container {
+  height: 50px;
+  width: 90%;
+  padding: 25px 0 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline__labels {
+  font-weight: 900;
+  border-bottom: 3px solid black;
+  width: 100%;
+  position: relative;
+}
+
+.timeline__label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, -150%);
+}
+
+.timeline__label__first {
+  left: 0;
+}
+
+.timeline__label__second {
+  left: 50%;
+}
+
+.timeline__label__marker {
+  height: 20px;
+  width: 3px;
+  position: absolute;
+  background: black;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timeline__label__marker__first {
+  left: 0;
+}
+
+.timeline__label__marker__second {
+  left: 50%;
+}
+
+.timeline__label__marker__third {
+  right: 0%;
+  transform: translate(50%, -50%);
+}
+.timeline__main {
+  height: 50px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+  z-index: -1;
+}

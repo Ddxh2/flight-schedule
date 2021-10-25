@@ -1,0 +1,14 @@
+.timelineBlock__container {
+  position: absolute;
+  background: lightgrey;
+  height: 100%;
+  top: 0;
+}
+
+.timelineBlock__container__flight {
+  background: lightgreen;
+}
+
+.timelineBlock__container__wait {
+  background: #a865c9;
+}

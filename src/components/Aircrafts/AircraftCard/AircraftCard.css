@@ -1,0 +1,37 @@
+.aircraftCard__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0 20px 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.aircraftCard__container-selected,
+.aircraftCard__container:hover {
+  background: #cccccc;
+}
+
+.aircraftCard__main {
+  width: fit-content;
+  height: fit-content;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aircraftCard__title {
+  margin: 0;
+  font-weight: 900;
+}
+
+.aircraftCard__utility {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
