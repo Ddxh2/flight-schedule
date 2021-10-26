@@ -11,11 +11,12 @@ Any flights that have conflicts will have the relevant conflicts highlighted in 
 In the interest of time, certain aspects of development were prioritised over others. A list of improvements given further development is included below: 
 
 1. A friendlier, more approachable sense of styling that helps draw the user's eyes to the key points of each component
-2. There is a bug with the drag and drop functionality wherein it is not possible to drag a flight to the first or last slot. This is now a blocker as there is a workaround where the user may simply drag the first below the target flight, or drag the last before the target flight to achieve the desired ordering. Nonetheless this is a bug that should be fixed. 
-3. There is a duplication bug in the reducer used by the SchedulesProvider in schedules.js whereby adding or removing flights resulted in duplicates being created. A workaround find was implemented, but the ultimate cause of the bug remains a mystery and it should be fixed
+2. There is a bug with the drag and drop functionality wherein it is not possible to drag a flight to the first or last slot. This is not a blocker or a major bug as there is a workaround where the user may simply drag the first below the target flight, or drag the last before the target flight to achieve the desired ordering. Nonetheless this is a bug that should be fixed
+3. There is a duplication bug in the reducer used by the SchedulesProvider in schedules.js whereby adding or removing flights resulted in duplicates being created. A workaround fix was implemented, but the ultimate cause of the bug remains a mystery and it should be investigated and resolved
 4. General unit, integration and end to end testing has been omitted
 5. The styling has not been made dynamic or responsive in the interest of time, but in the interests of usability and approachability it should definitely be implemented in the future
-6. In accordance with some given simplifications, certain aspects of the application (such as the date in the DateDisplay) have been hard coded. 
+6. In accordance with some given simplifications, certain aspects of the application (such as the date in the DateDisplay) have been hard coded
+7. Perhaps implement external libraries to integrate features such as drag-and-drop rather than building from scratch.
 
 ## Pre-requisites
 
