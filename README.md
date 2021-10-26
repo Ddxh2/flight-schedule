@@ -26,4 +26,4 @@ You must have Nodejs/NPM installed
 
 1. Clone the repo
 2. Within the local directory, run `npm install` to install all necessary dependencies
-3. Once the dependencies have been installed, run `npm start` to start the application of localhost:3000
+3. Once the dependencies have been installed, run `npm start` to start the application on localhost:3000
